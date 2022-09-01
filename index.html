@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dog's Home</title>
+    <!-- font-awesome 4.7.0 버전 연결-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <!-- css연결 -->
+    <link rel="stylesheet" href="css/common.css" />
+    <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="css/section.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+  </head>
+  <body>
+    <!-- 맨 상단 topBar -->
+    <nav class="topBar">
+      <div class="inner clearfix">
+        <a href="index.html"><span>HOME</span></a>
+        <ul>
+          <li>
+            <a href="#"><i class="fa fab fa-twitter"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fa fab fa-instagram"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fa fab fab fa-facebook-square"></i></a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Header -->
+    <header>
+      <div class="inner">
+        <!-- logo 절대 위치 -->
+        <div class="logo">
+          <a href="#"><img src="img/logo.png" alt="Dog's Home" /></a>
+        </div>
+
+        <!-- 네이버를 검색도구로 -->
+        <div class="search_box">
+          <form
+            name="sform"
+            action="https://search.naver.com/search.naver"
+            method="get"
+          >
+            <input name="query" type="text" />
+            <button type="submit">
+              <i class="fa fa-search"></i>
+            </button>
+          </form>
+        </div>
+      </div>
+    </header>
+
+    <nav class="main_menu">
+      <div class="inner">
+        <!-- 네비게이션 메인메뉴 -->
+        <ul class="gnb">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Shop</a></li>
+          <li><a href="#">Pets</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">Event</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- 배너 호출 -->
+    <section class="main_banner">
+      <div class="inner">
+        <!-- 오른쪽 아래 대각 translate -->
+        <div class="rightAction">
+          <div class="rightDesc">
+            <p>시츄</p>
+            <ul>
+              <li>멍때리기 장인</li>
+              <li>나름 얌젼함</li>
+              <li>피부병에 잘걸림</li>
+            </ul>
+          </div>
+          <div class="rightImg">
+            <img src="img/Shih_Tzu.jpg" alt="시츄" width="400" />
+          </div>
+        </div>
+        <!-- 왼쪽 아래 대각 translate -->
+        <div class="leftAction">
+          <div class="leftDesc">
+            <p>푸들</p>
+            <ul>
+              <li>난리치기 장인</li>
+              <li>난폭</li>
+              <li>정신없음</li>
+            </ul>
+          </div>
+          <div class="leftImg">
+            <img src="img/Poodle.jpg" alt="푸들" width="400" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 애완용품 코너 -->
+    <section class="shopping">
+      <div class="inner">
+        <h2><i>Dog's Shop</i></h2>
+        <ul class="shopping_list">
+          <li>
+            <img src="img/Dog_Food.jpg" alt="개 사료" />
+            <p>Food</p>
+          </li>
+          <li>
+            <img src="img/Dog_Clothes.jpg" alt="개 옷" />
+            <p>Clothes</p>
+          </li>
+          <li>
+            <img src="img/Dog_Toys.jpg" alt="개 장난감" />
+            <p>Toys</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- pets -->
+    <section class="pets">
+      <div class="inner">
+        <h2><i>Pets</i></h2>
+        <!-- float 정렬 -->
+        <ul class="petList">
+          <li><img src="img/bulldog.jpg" alt="불독" /></li>
+          <li><img src="img/Shiba_Inu.jpg" alt="시바견" /></li>
+          <li><img src="img/Chihuahua.jpg" alt="치와와" /></li>
+          <li><img src="img/Shiba_Inu.jpg" alt="시바견" /></li>
+          <li><img src="img/Golden_Retriever.jpg" alt="골든 리트리버" /></li>
+          <li><img src="img/Shiba_Inu.jpg" alt="시바견" /></li>
+          <li><img src="img/Pomeranian.jpg" alt="포메리안" /></li>
+          <li><img src="img/Shiba_Inu.jpg" alt="시바견" /></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- 동물관련 동영상 -->
+    <section class="uTube">
+      <div class="inner">
+        <h2><i>Popular Youtube</i></h2>
+        <iframe
+        width="600"
+        height="300"
+        src="https://www.youtube.com/embed/U0YD2_6Nk3g"
+        title="웃어봐요 동물의 짤"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      ></iframe>
+      <p class="youtube_channel">웃어봐요 동물의 짤</p>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="inner">
+        <div class="ft_flex">
+          <ul class="one">
+            <li><img src="img/logo.png" alt="로고" /></li>
+          </ul>
+          <ul class="two">
+            <li>대표: 홍길동|공동대표: 고길동</li>
+            <li>주소: 태양시 금성구 금성대로 123</li>
+            <li>사업자 번호: 214-00-12234</li>
+            <li>통신판매업신고: 2022-써닝-0612</li>
+            <li><a href="#">사업자 정보 확인</a></li>
+          </ul>
+          <ul class="three">
+            <li>AI 상담 | 일반문의</li>
+            <li><span>1234-1234</span></li>
+            <li>태양시 금성구 금성대로 123</li>
+            <li>email:dog2home@dogs.co.kr</li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
